@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        html {
+            background: #f8f8ff url(./img/fundo\ verde.png) no-repeat;
+            background-position: center bottom;
+            background-size: cover;
+        }
+
+        body {
+            width: 90%;
+            background: #ffffff;
+            margin-inline: auto;
+            margin-block: 2.5rem;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header img {
+            margin-top: 3.9rem;
+        }
+
+        header p {
+            margin-top: 5.4rem;
+
+            font-weight: 300;
+
+            width: 35.3rem;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .comeco {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .comeco button {
+            margin-top: 4.1rem;
+            font-size: 36px;
+
+            font-weight: 600;
+
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .comeco button:hover{
+            background-color: #14927f;
+            cursor: pointer;                
+        }
+
+        .comeco img {
+            margin-top: 4.4rem;
+        }
+
+        .catalogo {
+            margin-top: 1.65rem;
+
+            margin-left: 50vh;
+        }
+
+        div {
+            display: flex;
+        }
+
+        .catalogo p {
+            margin-left: 2rem;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .catalogo div {
+            margin-top: 4.6rem;
+        }
+
+        #trapezoidal p {
+            margin-left: 1.3rem;
+        }
+
+        #redondo p {
+            margin-left: 4rem;
+        }
+
+        #cantoneira p {
+            margin-left: 2.3rem;
+        }
+
+        #tubos p {
+            margin-left: 3.7rem;
+        }
+
+        .catalogo p b {
+            font-size: 36px;
+            font-weight: 600;
+            color: #23242B;
+        }
+
+        .catalogo p b {
+            margin-left: -1rem;
+        }
+
+        hr {
+            width: 103px;
+            height: 2px;
+            background: #323232;
+            border: none;
+            border-radius: 25px;
+        }
+
+        footer {
+            margin-top: 3.6rem;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3.7rem;
+        }
+
+        footer p {
+            text-align: center;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: #000000;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+    <header>
+        <img src="./img/logo metal art.png" alt="Logo da Metal Art">
+        <p>A Metal Art é uma distribuidora de aço e acessórios para serralheria em geral, localizada na região
+            metropolitana de São Paulo.</p>
+    </header>
+
+    <main>
+        <section class="comeco">
+            <button onclick="window.open('https:/metalartdistribuidora.com.br/shop/', '_blank')"><b>Confira o nosso
+                    catálogo</b></button>
+            <img src="./img/seta para baixo.png" alt="Uma seta para baixo">
+        </section>
+
+        <section class="catalogo">
+            <div id="sanduiche">
+                <img src="./img/telha sanduiche.png" alt="Telha Sanduíche">
+                <p><b>Telha Sanduíche</b> <br> Fabricadas sob medida</p>
+            </div>
+
+            <div id="trapezoidal">
+                <img src="./img/telha trapezoidal.png" alt="Telha Trapezoidal">
+                <p><b>Telha Trapezoidal</b> <br> Fabricadas sob medida</p>
+            </div>
+
+            <div id="redondo">
+                <img src="./img/ferro redondo.png" alt="Ferro Redondo">
+                <p><b>Ferro Redondo</b> <br> Barras em diversas medidas (1/4, 1 1/4, etc)</p>
+            </div>
+
+            <div id="cantoneira">
+                <img src="./img/cantoneira.png" alt="Cantoneira">
+                <p><b>Cantoneira</b> <br> Barras de 6 metros em diversas medidas</p>
+            </div>
+
+            <div id="tubos">
+                <img src="./img/tubos em geral.png" alt="Tubos em Geral">
+                <p><b>Tubos em Geral</b> <br> Barras de 6 metros em diversas medidas</p>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <p>Enviado por <strong>Metal Art Distribuidora</strong><br><a
+                    href="https://www.google.com/maps/dir//METAL+ART+DISTRIBUIDORA,+R.+da+Costa+Nova+do+Prado,+293+-+Jardim+Lilah,+São+Paulo+-+SP,+05885-190/@-23.6724021,-46.82224,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce53ac64b9610b:0x6ddc2809ba87d508!2m2!1d-46.7810264!2d-23.6724193"
+                    target="_blank">Endereço: Rua da Costa Nova do Prado, 293 - Jd.Comercial<br>SP, 05885-190</a></p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
