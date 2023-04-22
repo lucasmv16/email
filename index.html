@@ -8,197 +8,86 @@
 </head>
 
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
-
-        * {
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        html {
-            background: #f8f8ff url(https://github.com/lucasmv16/email/blob/main/img/fundo%20verde.png?raw=true) no-repeat;
-            background-position: center bottom;
-            background-size: cover;
-        }
-
-        body {
-            width: 90%;
-            background: #ffffff;
-            margin-inline: auto;
-            margin-block: 2.5rem;
-        }
-
-        header {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        header img {
-            margin-top: 3.9rem;
-        }
-
-        header p {
-            margin-top: 5.4rem;
-
-            font-weight: 300;
-
-            width: 35.3rem;
-            text-align: center;
-            font-size: 20px;
-        }
-
-        .comeco {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .comeco button {
-            margin-top: 4.1rem;
-            font-size: 36px;
-
-            font-weight: 600;
-
-            background-color: #000000;
-            color: #ffffff;
-            border: none;
-            padding: 1rem;
-            border-radius: 10px;
-        }
-
-        .comeco button:hover{
-            background-color: #14927f;
-            cursor: pointer;                
-        }
-
-        .comeco img {
-            margin-top: 4.4rem;
-        }
-
-        .catalogo {
-            margin-top: 1.65rem;
-
-            margin-left: 50vh;
-        }
-
-        div {
-            display: flex;
-        }
-
-        .catalogo p {
-            margin-left: 2rem;
-
-            display: flex;
-            flex-direction: column;
-        }
-
-        .catalogo div {
-            margin-top: 4.6rem;
-        }
-
-        #trapezoidal p {
-            margin-left: 1.3rem;
-        }
-
-        #redondo p {
-            margin-left: 4rem;
-        }
-
-        #cantoneira p {
-            margin-left: 2.3rem;
-        }
-
-        #tubos p {
-            margin-left: 3.7rem;
-        }
-
-        .catalogo p b {
-            font-size: 36px;
-            font-weight: 600;
-            color: #23242B;
-        }
-
-        .catalogo p b {
-            margin-left: -1rem;
-        }
-
-        hr {
-            width: 103px;
-            height: 2px;
-            background: #323232;
-            border: none;
-            border-radius: 25px;
-        }
-
-        footer {
-            margin-top: 3.6rem;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 3.7rem;
-        }
-
-        footer p {
-            text-align: center;
-        }
-
-        footer a{
-            text-decoration: none;
-            color: #000000;
-        }
-
-        footer a:hover{
-            text-decoration: underline;
-        }
-    </style>
-
-    <header>
-        <img src="https://github.com/lucasmv16/email/blob/main/img/logo%20metal%20art.png?raw=true" alt="Logo da Metal Art">
-        <p>A Metal Art é uma distribuidora de aço e acessórios para serralheria em geral, localizada na região
-            metropolitana de São Paulo.</p>
-    </header>
-
-    <main>
-        <section class="comeco">
-            <button onclick="window.open('https:/metalartdistribuidora.com.br/shop/', '_blank')"><b>Confira o nosso
-                    catálogo</b></button>
-            <img src="https://github.com/lucasmv16/email/blob/main/img/seta%20para%20baixo.png?raw=true" alt="Uma seta para baixo">
-        </section>
-
-        <section class="catalogo">
-            <div id="sanduiche">
-                <img src="https://github.com/lucasmv16/email/blob/main/img/telha%20sanduiche.png?raw=true" alt="Telha Sanduíche">
-                <p><b>Telha Sanduíche</b> <br> Fabricadas sob medida</p>
+    <div
+        style="background: #f8f8ff url(https://github.com/lucasmv16/email/blob/main/img/fundo%20verde.png?raw=true) no-repeat; background-position: center bottom; background-size: cover;">
+        <div style="width: 90%; background: #ffffff; margin-left: auto; margin-right: auto;margin-block: 2.5rem;">
+            <div style="text-align: center;">
+                <img src="https://github.com/lucasmv16/email/blob/main/img/logo%20metal%20art.png?raw=true"
+                    alt="Logo da Metal Art" style="margin-top: 3.9rem;">
+                <p
+                    style="margin-top: 5.4rem; font-weight: 300; width: 35.3rem; text-align: center; font-size: 20px; margin-left: auto; margin-right: auto;">
+                    A Metal Art é uma distribuidora de aço e acessórios para serralheria em geral, localizada na região
+                    metropolitana de São Paulo.</p>
             </div>
 
-            <div id="trapezoidal">
-                <img src="https://github.com/lucasmv16/email/blob/main/img/telha%20trapezoidal.png?raw=true" alt="Telha Trapezoidal">
-                <p><b>Telha Trapezoidal</b> <br> Fabricadas sob medida</p>
-            </div>
+            <main>
+                <div style="text-align: center;">
+                    <button
+                        style="margin-top: 4.1rem; font-size: 36px; font-weight: 600; background-color: #000000; color: #ffffff; border: none; padding: 1rem; border-radius: 10px; cursor: pointer;"><a
+                            href="https://metalartdistribuidora.com.br/shop/" target="_blank"
+                            style="text-decoration: none; color: #ffffff;"><b>Confira
+                                o nosso
+                                catálogo</b></a></button>
+                    <img src="https://github.com/lucasmv16/email/blob/main/img/seta%20para%20baixo.png?raw=true"
+                        alt="Uma seta para baixo"
+                        style="margin-top: 4.4rem; display: block; margin-left: auto; margin-right: auto;">
+                </div>
 
-            <div id="redondo">
-                <img src="https://github.com/lucasmv16/email/blob/main/img/ferro%20redondo.png?raw=true" alt="Ferro Redondo">
-                <p><b>Ferro Redondo</b> <br> Barras em diversas medidas (1/4, 1 1/4, etc)</p>
-            </div>
+                <div style="margin-top: 1.65rem; width: fit-content; margin-left: auto; margin-right: auto;">
+                    <div style="display: flex; margin-top: 4.6rem;">
+                        <img src="https://github.com/lucasmv16/email/blob/main/img/telha%20sanduiche.png?raw=true"
+                            alt="Telha Sanduíche">
+                        <p style="margin-left: 2rem;"><b
+                                style="font-size: 36px; font-weight: 600; color: #23242B;">Telha
+                                Sanduíche</b> <br> <i style="font-style: normal; margin-left: 1rem;">Fabricadas sob medida</i></p>
+                    </div>
 
-            <div id="cantoneira">
-                <img src="https://github.com/lucasmv16/email/blob/main/img/cantoneira.png?raw=true" alt="Cantoneira">
-                <p><b>Cantoneira</b> <br> Barras de 6 metros em diversas medidas</p>
-            </div>
+                    <div style="display: flex; margin-top: 4.6rem;">
+                        <img src="https://github.com/lucasmv16/email/blob/main/img/telha%20trapezoidal.png?raw=true"
+                            alt="Telha Trapezoidal">
+                        <p style="margin-left: 2.3rem;"><b
+                                style="font-size: 36px; font-weight: 600; color: #23242B;">Telha
+                                Trapezoidal</b> <br> <i style="font-style: normal; margin-left: 1rem;">Fabricadas sob medida</i></p>
+                    </div>
 
-            <div id="tubos">
-                <img src="https://github.com/lucasmv16/email/blob/main/img/tubos%20em%20geral.png?raw=true" alt="Tubos em Geral">
-                <p><b>Tubos em Geral</b> <br> Barras de 6 metros em diversas medidas</p>
-            </div>
-        </section>
-        <hr>
-        <footer>
-            <p>Enviado por <strong>Metal Art Distribuidora</strong><br><a
-                    href="https://www.google.com/maps/dir//METAL+ART+DISTRIBUIDORA,+R.+da+Costa+Nova+do+Prado,+293+-+Jardim+Lilah,+São+Paulo+-+SP,+05885-190/@-23.6724021,-46.82224,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce53ac64b9610b:0x6ddc2809ba87d508!2m2!1d-46.7810264!2d-23.6724193"
-                    target="_blank">Endereço: Rua da Costa Nova do Prado, 293 - Jd.Comercial<br>SP, 05885-190</a></p>
-        </footer>
-    </main>
+                    <div style="display: flex; margin-top: 4.6rem;">
+                        <img src="https://github.com/lucasmv16/email/blob/main/img/ferro%20redondo.png?raw=true"
+                            alt="Ferro Redondo">
+                        <p style="margin-left: 5rem;"><b
+                                style="font-size: 36px; font-weight: 600; color: #23242B;">Ferro
+                                Redondo</b> <br> <i style="font-style: normal; margin-left: 1rem;">Barras em diversas medidas (1/4, 1 1/4, etc)</i></p>
+                    </div>
 
+                    <div style="display: flex; margin-top: 4.6rem;">
+                        <img src="https://github.com/lucasmv16/email/blob/main/img/cantoneira.png?raw=true"
+                            alt="Cantoneira">
+                        <p style="margin-left: 3.3rem;"><b
+                                style="font-size: 36px; font-weight: 600; color: #23242B;">Cantoneira</b>
+                            <br> <i style="font-style: normal; margin-left: 1rem;">Barras de 6 metros em diversas medidas</i> 
+                        </p>
+                    </div>
+
+                    <div style="display: flex; margin-top: 4.6rem;">
+                        <img src="https://github.com/lucasmv16/email/blob/main/img/tubos%20em%20geral.png?raw=true"
+                            alt="Tubos em Geral">
+                        <p style="margin-left: 4.7rem;"><b
+                                style="font-size: 36px; font-weight: 600; color: #23242B;">Tubos em
+                                Geral</b> <br> <i style="font-style: normal; margin-left: 1rem;">Barras de 6 metros em diversas medidas</i></p>
+                    </div>
+                </div>
+                <hr
+                    style="width: 103px; height: 2px; background: #323232; border: none; border-radius: 25px; margin-top: 2rem;">
+                <footer class="footer" style="margin-top: 3.6rem; margin-bottom: 3.7rem;" x>
+                    <p style="text-align: center;">Enviado por <strong>Metal Art Distribuidora</strong><br><a
+                            style="color: #000000;"
+                            href="https://www.google.com/maps/dir//METAL+ART+DISTRIBUIDORA,+R.+da+Costa+Nova+do+Prado,+293+-+Jardim+Lilah,+São+Paulo+-+SP,+05885-190/@-23.6724021,-46.82224,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce53ac64b9610b:0x6ddc2809ba87d508!2m2!1d-46.7810264!2d-23.6724193"
+                            target="_blank">Endereço: Rua da Costa Nova do Prado, 293 - Jd.Comercial<br>SP,
+                            05885-190</a>
+                    </p>
+                </footer>
+            </main>
+        </div>
+    </div>
 </body>
 
 </html>
